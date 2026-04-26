@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+
+<header>
+        <a href="index.html"> <img src="logo/photo_5780370878100522737_y-removebg-preview.png" alt="" class="logo-header"></a>
+        <div class="cate-header">
+            <a href="../products/jacket.html">Jackets</a>
+            <a href="../products/t-shirt.html">shirt</a>
+            <a href="../products/jeans.html">Jeans</a>
+            <a href="../products/shoes.html">Shoes</a>
+        </div>
+
+        <form action="" onsubmit="redirect()">
+            <button class="tran"><img src="icons/search.png" alt="" class="search-icons"></button>
+            <input type="text" placeholder="Search Product or Brand" class="search" id="searchInput">   
+        </form>
+        <div class="overlay"></div>
+
+
+        <nav class="nav-header">
+
+            <div class="dropdown">
+                <a href="../favourites/favorites.html" class="link-nav-header">
+                    <img src="icons/love.png" alt="">
+                    <span class="span-header">Favorites</span>
+                </a>
+            </div>
+
+            <div class="dropdown">
+                <a href="../cart/cart.html" class="link-nav-header">
+                    <img src="icons/cart.png" alt="">
+                    <span class="span-header">Cart</span>
+                </a>
+            </div>
+
+            <div class="dropdown-header">
+                <a href="" class="link-nav-header">
+                    <img src="icons/profile.png" alt="">
+                    <span class="span-header">Login</span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="../sign/signin.html" target="_blank"><button class="sign-in">Sign in</button></a>
+                    <a href="../sign/signup.html"  target="_blank"><button class="register">Register</button></a>
+                </div>
+            </div>
+
+
+        </nav>
+</header>
+<hr>
+
+    <div class="slideshow"> 
+        <!-- <p>welcome to our new collection in 2025...</p> -->
+        <div class="image-contaier" id="image-contaier">
+            <a href="#"><img src="photo/MUST-B.png" alt="" class="imegs" id="slide-0" ></a>
+            <a href="#"><img src="photo/ALL.png" alt="" class="imegs" id="slide-1" ></a>
+            <a href="#"><img src="photo/11.jpg" alt="" class="imegs" id="slide-2"></a>
+        </div>
+    </div>
+
+
+    <button id="left" class="arrow"  onclick="minOne()">←</button>
+    <button id="right" class="arrow" onclick="plusOne()">→</button>
+<br>
+
+<section>
+    <div class="photos">
+
+    <!-- <div class="photo">
+        <div class="photo-title">Polo</div>
+        <a href="#"><img src="5 back/white-polo-shirt-mockup-template-isolated-front-view_176382-1090.avif" alt=""></a>
+    </div> -->
+
+    <div class="photo">
+        <div class="photo-title">Jacket</div>
+        <a href="../products/jacket.html"><img src="5 back/still-life-rendering-jackets-display (1).jpg" alt=""></a>
+    </div>
+
+    <div class="photo">
+        <div class="photo-title">Shirt</div>
+        <a href="../products/t-shirt.html"><img src="5 back/white-polo-shirt-mockup-template-isolated-front-view_176382-1090.avif" alt=""></a>
+    </div>
+
+    <div class="photo">
+        <div class="photo-title">shoes</div>
+        <a href="../products/shoes.html"><img src="5 back/maksim-larin-ezdrvzA1hZw-unsplash.jpg" alt=""></a>
+    </div>
+
+    <div class="photo">
+        <div class="photo-title">Pants</div>
+        <a href="../products/jeans.html"><img src="5 back/view-beige-tone-colored-pants.jpg" alt=""></a>
+    </div>
+
+    </div>
+</section>
+
+
+<div class="foot">
+    <footer>
+
+        <div class="follow ">
+            <p class="fol">follow us here </p>
+            <div class="img">
+                <a href="" class="image"><img src="icons/facebook.png" alt="facebook" ></a>
+                <a href=""class="image"><img src="icons/instagram.png" alt="instagram" ></a>
+                <a href=""class="image"><img src="icons/tiktok.png" alt="tiktok" ></a>
+                <a href=""class="image"><img src="icons/twitter.png" alt="twitter" ></a>
+                <a href=""class="image"><img src="icons/youtube.png" alt="youtube" ></a>
+            </div>
+        </div>
+
+        <div class="find 2"> 
+        <p class="cu">Find Us </p> <br><br>
+        <div class="find1">
+            <a href="About.html" alt=""> About US </a> <br> <br>
+            <a href="../contact/contact.html" alt="">CONTACT US</a> 
+        </div>
+        
+        </div>
+
+    <div class="customer 2">
+        <p class="cu "> customer service </p> <br><br>
+        <div class="customer1">
+            <a href="" alt="">Terms & Condition</a><br> <br>
+            <a href="" alt="">Return & Exchange policy</a><br> <br>  
+            <a href="" alt="">Privacy Policy</a><br> <br>
+            <a href="" alt="">Shipping Policy</a> 
+        </div>
+    </div>
+
+    </footer>
+</div>
+
+
+    <script src="main.js"></script>
+    <script src="search.js"></script>
+    </body>
+</html>
